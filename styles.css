@@ -1,0 +1,14 @@
+body {
+	padding: 10px
+}
+.special {
+	color: green;
+}
+.second {
+	border: solid 5px black;
+	padding: 10px;
+	margin: 25px;
+}
+.third {
+	border: solid 5px green;
+}
