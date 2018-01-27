@@ -1,14 +1,29 @@
 body {
 	padding: 10px
 }
+
+a:link {
+	color: orange;
+}
+a:hover {
+	color: red;
+}
 .special {
 	color: green;
 }
-.second {
+.second, .third {
 	border: solid 5px black;
 	padding: 10px;
 	margin: 25px;
 }
 .third {
 	border: solid 5px green;
+}
+
+.leadmessage p {
+	font-family: sans-serif;
+}
+
+p:nth-child(odd) {
+	font-weight: bold;
 }
